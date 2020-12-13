@@ -12,5 +12,8 @@ Responsiveness was the priority in constructing this portfolio page. This site i
 Below are screenshots of this site at different viewport widths, demonstrating its respsonsiveness.
 <img src="./assets/screenshots/aboutlarge.png" width=100%>
 <img src="./assets/screenshots/aboutmed.png" width=100%>
+<img src="./assets/screenshots/portfoliolarge.png" width=100%>
+<img src="./assets/screenshots/portfoliomed.png" width=100%>
+<img src=".assets/screenshots/contactmed.png" width=100%>
 
 
