@@ -17,13 +17,11 @@
     <!-- Consistent header including navbar -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <h1><span class="badge rounded-pill bg-primary">Ian Von Fange</span></h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <h1><span class="badge rounded-pill bg-info">Ian Von Fange</span></h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav justify-content-end">
                     <a class="nav-link" href="./index.html">About</a>
                     <a class="nav-link" href="./portfolio.html">Portfolio</a>
@@ -33,40 +31,43 @@
         </nav>
     </header>
 
-    <!--  Main section of the page -->
     <div class="container">
-        <div class="card bg-dark text-white">
-            <h2 class="card-title">Contact</h2>
-            <hr color="white">
-            <!-- A form constructed as a form group, including forms for name, email, and message -->
-            <form>
-                <!-- Form for name -->
-                <div class="form-group">
-                    <label for="formGroupName">Name</label>
-                    <input type="text" class="form-control" id="formGroupName" placeholder="John Smith">
+      <div class="row">
+        <h1 class="card-title">Contact</h1>
+      </div>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="card bg-dark text-white">
+                    <form>
+                        <div class="form-group">
+                            <label for="formGroupName">Name</label>
+                            <input type="text" class="form-control" id="formGroupName" placeholder="John Smith">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupEmail">Email</label>
+                            <input type="text" class="form-control" id="formGroupEmail" placeholder="example@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupMessage">Message</label>
+                            <textarea class="form-control" id="formGroupMessage" rows="8"></textarea>
+                        </div>
+                    </form>
                 </div>
-                <!-- Form for email address -->
-                <div class="form-group">
-                    <label for="formGroupEmail">Email</label>
-                    <input type="text" class="form-control" id="formGroupEmail" placeholder="example@gmail.com">
-                </div>
-                <!-- Form for email message, adding extra rows for longer messages -->
-                <div class="form-group">
-                    <label for="formGroupMessage">Message</label>
-                    <textarea class="form-control" id="formGroupMessage" rows="8"></textarea>
-                </div>
-                <hr color="white">
-                <!-- Submit button for email messages -->
-                <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
-            </form>
+            </div>
         </div>
-    </div>
+        <div class="row">
+            <button class="btn btn-info btn-lg" type="submit">Submit</button>
+        </div>       
+          
+
+    </div>    
+       
     <!-- Sticky footer including copyright information -->
-    <footer class="footer mt-auto py-3">
-        <div class="container-footer">
-            <span class="text-muted">© Ian Von Fange 2020</span>
+    <footer class="py-4 bg-light text-black-50">
+        <div class="container text-center">
+          <span class="text-muted">&copy; Ian Von Fange 2020 | Powered by Bootstrap 4.5</span>
         </div>
-    </footer>
+      </footer>
 <!-- Links to Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
