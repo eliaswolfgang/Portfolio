@@ -19,6 +19,6 @@ Below are screenshots of this site at different viewport widths, demonstrating i
 ## Links
 This site's HTML was verified here: https://validator.w3.org/nu/?doc=https%3A%2F%2Feliaswolfgang.github.io%2FBasic-Portfolio%2F
 
-This site is hosted by GitHub Pages and deployed at https://eliaswolfgang.github.io/Basic-Portfolio/
+This site is hosted by GitHub Pages and deployed at https://eliaswolfgang.github.io/Portfolio/
 
 
